@@ -1,0 +1,23 @@
+body{
+    background-color: lightgray;
+}
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flex-container_box1{
+    background-color: chocolate;
+    width: 100%;
+    text-align: center;
+}
+.flex-container_box2{
+    background-color: darkcyan;
+    width: 100%;
+    text-align: center;
+}
+@media(max-width: 800px){
+    #flex-container{
+        flex-direction: column;
+    }
+}
